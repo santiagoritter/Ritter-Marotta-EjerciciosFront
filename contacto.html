@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Santiago Ritter</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+
+<header class="encabezado">
+    <div class="encabezado_inner">
+        <a href="index.html" class="marca">Santiago Ritter</a>
+        <nav class="navegacion" id="navegacion">
+            <ul class="nav_lista">
+                <li><a href="index.html#servicios" class="nav_link">Servicios</a></li>
+                <li><a href="index.html#trabajos" class="nav_link">Trabajos</a></li>
+                <li><a href="index.html#sobre-mi" class="nav_link">Sobre mi</a></li>
+                <li><a href="contacto.html" class="nav_link">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="boton_menu" id="boton_menu"></button>
+    </div>
+</header>
+
+<section class="bloque">
+    <div class="contenedor">
+        <div class="contacto_intro">
+            <h1>Manda un mensaje.</h1>
+            <p class="contacto_bajada">Si tenes un proyecto o una idea, escribime. No hace falta tener todo claro para hablar.</p>
+            <p class="contacto_dato">santiago@correo.com</p>
+        </div>
+
+        <form id="formulario" class="formulario">
+            <div class="campo">
+                <label for="nombre" class="campo_label">Tu nombre</label>
+                <input type="text" id="nombre" name="nombre" class="campo_input" placeholder="Matias Faya" required>
+            </div>
+            <div class="campo">
+                <label for="email" class="campo_label">Tu email</label>
+                <input type="email" id="email" name="email" class="campo_input" required>
+            </div>
+            <div class="campo">
+                <label for="mensaje" class="campo_label">Que necesitas</label>
+                <textarea id="mensaje" name="mensaje" class="campo_textarea" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="boton_principal">Mandar</button>
+        </form>
+    </div>
+</section>
+
+<footer class="pie">
+    <div class="pie_inner">
+        <p class="marca">Santiago Ritter</p>
+        <p class="pie_copy">&copy; 2026 Santiago Ritter</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
