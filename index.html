@@ -9,71 +9,81 @@
 <body>
 
 <header class="encabezado">
-    <div class="encabezado_inner">
+    <div class="fila-cabecera">
         <p class="marca">Santiago Ritter</p>
-        <nav class="navegacion" id="navegacion">
-            <ul class="nav_lista">
-                <li><a href="#servicios" class="nav_link">Servicios</a></li>
-                <li><a href="#trabajos" class="nav_link">Trabajos</a></li>
-                <li><a href="#sobre-mi" class="nav_link">Sobre mi</a></li>
-                <li><a href="contacto.html" class="nav_link">Contacto</a></li>
+
+        <div class="menu" id="navLinks">
+            <ul class="lista-menu">
+                <li><a href="#servicios" class="enlace-menu">Servicios</a></li>
+                <li><a href="#trabajos" class="enlace-menu">Trabajos</a></li>
+                <li><a href="#sobre-mi" class="enlace-menu">Sobre mi</a></li>
+                <li><a href="contacto.html" class="enlace-menu">Contacto</a></li>
             </ul>
-        </nav>
-        <button class="boton_menu" id="boton_menu">&#9776;</button>
+        </div>
+
+        <button class="boton-hamburguesa" id="toggleMenu">&#9776;</button>
     </div>
 </header>
 
+
+
 <section id="inicio" class="portada">
     <div class="contenedor">
-        <p class="etiqueta">Desarrollador Web</p>
+        <p class="etiqueta-seccion">Desarrollador Web</p>
         <h1>Del codigo, nace la idea.</h1>
-        <p class="descripcion">Construyo sitios rapidos y faciles de usar para personas y negocios.</p>
-        <div class="botones_inicio">
-            <a href="contacto.html" class="boton_principal">Hablemos</a>
-            <a href="#trabajos" class="boton_secundario">Ver trabajos</a>
+        <p class="subtitulo">Construyo sitios rapidos y faciles de usar para personas y negocios.</p>
+        <div class="botones-portada">
+            <a href="contacto.html" class="boton-lleno">Hablemos</a>
+            <a href="#trabajos" class="boton-contorno">Ver trabajos</a>
         </div>
     </div>
 </section>
+
+
+
 
 <section id="servicios" class="bloque">
     <div class="contenedor">
-        <p class="etiqueta">Lo que hago</p>
+        <p class="etiqueta-seccion">Lo que hago</p>
         <h2>Servicios</h2>
         <div class="servicios">
             <div class="tarjeta">
-                <h3 class="tarjeta_titulo">Sitios a medida</h3>
-                <p class="tarjeta_texto">Diseno y desarrollo desde cero segun lo que necesita el proyecto.</p>
+                <h3 class="titulo-tarjeta">Sitios a medida</h3>
+                <p class="texto-tarjeta">Diseno y desarrollo desde cero segun lo que necesita el proyecto.</p>
             </div>
             <div class="tarjeta">
-                <h3 class="tarjeta_titulo">Landing pages</h3>
-                <p class="tarjeta_texto">Paginas pensadas para conseguir clientes o mostrar un servicio.</p>
+                <h3 class="titulo-tarjeta">Landing pages</h3>
+                <p class="texto-tarjeta">Paginas pensadas para conseguir clientes o mostrar un servicio.</p>
             </div>
             <div class="tarjeta">
-                <h3 class="tarjeta_titulo">Mejoras</h3>
-                <p class="tarjeta_texto">Optimizo sitios que ya existen en velocidad y diseno.</p>
+                <h3 class="titulo-tarjeta">Mejoras</h3>
+                <p class="texto-tarjeta">Optimizo sitios que ya existen en velocidad y diseno.</p>
             </div>
             <div class="tarjeta">
-                <h3 class="tarjeta_titulo">Responsive</h3>
-                <p class="tarjeta_texto">Los sitios se ven bien en celular, tablet y computadora.</p>
+                <h3 class="titulo-tarjeta">Responsive</h3>
+                <p class="texto-tarjeta">Los sitios se ven bien en celular, tablet y computadora.</p>
             </div>
         </div>
     </div>
 </section>
 
-<section id="stack" class="bloque fondo_oscuro">
+
+
+
+<section id="stack" class="bloque fondo-oscuro">
     <div class="contenedor">
-        <p class="etiqueta">Tecnologias</p>
+        <p class="etiqueta-seccion">Tecnologias</p>
         <h2>Stack de trabajo</h2>
-        <ul class="stack_lista">
-            <li class="stack_item">HTML</li>
-            <li class="stack_item">CSS</li>
-            <li class="stack_item">JavaScript</li>
-            <li class="stack_item">Git</li>
-            <li class="stack_item">Figma</li>
-            <li class="stack_item">Java</li>
-            <li class="stack_item">C++</li>
-            <li class="stack_item">PHP</li>
-            <li class="stack_item">React</li>
+        <ul class="lista-linux">
+            <li class="lenguaje">HTML</li>
+            <li class="lenguaje">CSS</li>
+            <li class="lenguaje">JavaScript</li>
+            <li class="lenguaje">Git</li>
+            <li class="lenguaje">Figma</li>
+            <li class="lenguaje">Java</li>
+            <li class="lenguaje">C++</li>
+            <li class="lenguaje">PHP</li>
+            <li class="lenguaje">React</li>
 
         </ul>
     </div>
@@ -81,79 +91,71 @@
 
 <section id="trabajos" class="bloque">
     <div class="contenedor">
-        <p class="etiqueta">Proyectos</p>
+        <p class="etiqueta-seccion">Proyectos</p>
         <h2>Trabajos recientes</h2>
         <div class="proyectos">
             <div class="trabajo">
-                <p class="trabajo_tipo">Institucional</p>
-                <h3 class="trabajo_titulo">Estudio contable</h3>
-                <p class="trabajo_texto">Sitio con secciones claras y formulario de consulta.</p>
+                <p class="tipo-proyecto">Institucional</p>
+                <h3 class="titulo-proyecto">Estudio contable</h3>
+                <p class="texto-proyecto">Sitio con secciones claras y formulario de consulta.</p>
             </div>
             <div class="trabajo">
-                <p class="trabajo_tipo">Landing</p>
-                <h3 class="trabajo_titulo">Profesional independiente</h3>
-                <p class="trabajo_texto">Landing con servicios y llamada a la accion.</p>
+                <p class="tipo-proyecto">Landing</p>
+                <h3 class="titulo-proyecto">Profesional independiente</h3>
+                <p class="texto-proyecto">Landing con servicios y llamada a la accion.</p>
             </div>
             <div class="trabajo">
-                <p class="trabajo_tipo">Web app</p>
-                <h3 class="trabajo_titulo">hogar.py</h3>
-                <p class="trabajo_texto">Pagina de pago de servicios del hogar. Conectada a una API para consultar deuda y generar boletas.</p>
+                <p class="tipo-proyecto">Web app</p>
+                <h3 class="titulo-proyecto">hogar.py</h3>
+                <p class="texto-proyecto">Pagina de pago de servicios del hogar. Conectada a una API para consultar deuda y generar boletas.</p>
             </div>
         </div>
     </div>
 </section>
 
-<section id="linux" class="bloque fondo_oscuro">
-    <div class="contenedor">
-        <p class="etiqueta">Entorno</p>
-        <h2>Linux</h2>
-        <p class="github_desc">Trabajo en Linux desde hace varios años. Probe distintas distros y me manejo bien en la terminal.</p>
-        <ul class="stack_lista">
-            <li class="stack_item">Ubuntu</li>
-            <li class="stack_item">Lubuntu</li>
-            <li class="stack_item">Arch</li>
-            <li class="stack_item">Mint</li>
-            <li class="stack_item">Fedora</li>
-        </ul>
-    </div>
-</section>
 
-<section id="github" class="bloque fondo_oscuro">
+<section id="github" class="bloque fondo-oscuro">
     <div class="contenedor">
-        <p class="etiqueta">Codigo</p>
+        <p class="etiqueta-seccion">Codigo</p>
         <h2>Mi GitHub</h2>
-        <p class="github_desc">Aca podes ver el codigo de mis proyectos y cosas que estoy aprendiendo.</p>
-        <a href="https://github.com/santiagoRitter" target="_blank" class="boton_principal github_boton">Ver perfil</a>
+        <p class="github-descripcion">Aca podes ver el codigo de mis proyectos y cosas que estoy aprendiendo.</p>
+        <a href="https://github.com/santiagoRitter" target="_blank" class="boton-lleno enlace-github">Ver perfil</a>
     </div>
 </section>
 
-<section id="sobre-mi" class="bloque fondo_oscuro">
+<section id="sobre-mi" class="bloque fondo-oscuro">
     <div class="contenedor">
-        <div class="sobre_grilla">
-            <div class="sobre_texto">
-                <p class="etiqueta">Sobre mi</p>
+        <div class="grilla-acerca">
+
+
+            <div class="columna-izquierda">
+                <p class="etiqueta-seccion">Sobre mi</p>
                 <h2>Hola, soy Santiago.</h2>
-                <p class="texto_info">Desarrollador web de Argentina. Me interesa hacer cosas que funcionen bien y se vean bien.</p>
-                <p class="texto_info">Trabajo con clientes chicos y medianos que necesitan estar en internet.</p>
-                <a href="contacto.html" class="boton_principal sobre_cta">Escribime</a>
+                <p class="parrafo">Desarrollador web de Argentina. Me interesa hacer cosas que funcionen bien y se vean bien.</p>
+                <p class="parrafo">Trabajo con clientes chicos y medianos que necesitan estar en internet.</p>
+                <a href="contacto.html" class="boton-lleno enlace-acerca">Escribime</a>
             </div>
-            <div class="sobre_lista">
-                <ul class="lista_check">
-                    <li class="check_item">Codigo limpio</li>
-                    <li class="check_item">Entrego en fecha</li>
-                    <li class="check_item">Comunicacion directa</li>
-                    <li class="check_item">Funciona en todos los dispositivos</li>
-                    <li class="check_item">Sin letra chica</li>
+
+
+            <div class="columna-derecha">
+                <ul class="lista-cualidades">
+                    <li class="cualidad">Codigo limpio</li>
+                    <li class="cualidad">Entrego en fecha</li>
+                    <li class="cualidad">Comunicacion directa</li>
+                    <li class="cualidad">Funciona en todos los dispositivos</li>
+                    <li class="cualidad">Sin letra chica</li>
                 </ul>
             </div>
         </div>
     </div>
 </section>
 
+
+
 <footer class="pie">
-    <div class="pie_inner">
+    <div class="fila-pie">
         <p class="marca">Santiago Ritter</p>
-        <p class="pie_copy">&copy; 2026 Santiago Ritter</p>
+        <p class="texto-pie">&copy; 2026 Santiago Ritter</p>
     </div>
 </footer>
 

@@ -9,50 +9,50 @@
 <body>
 
 <header class="encabezado">
-    <div class="encabezado_inner">
+    <div class="fila-cabecera">
         <a href="index.html" class="marca">Santiago Ritter</a>
-        <nav class="navegacion" id="navegacion">
-            <ul class="nav_lista">
-                <li><a href="index.html#servicios" class="nav_link">Servicios</a></li>
-                <li><a href="index.html#trabajos" class="nav_link">Trabajos</a></li>
-                <li><a href="index.html#sobre-mi" class="nav_link">Sobre mi</a></li>
-                <li><a href="contacto.html" class="nav_link">Contacto</a></li>
+        <nav class="menu" id="navLinks">
+            <ul class="lista-menu">
+                <li><a href="index.html#servicios" class="enlace-menu">Servicios</a></li>
+                <li><a href="index.html#trabajos" class="enlace-menu">Trabajos</a></li>
+                <li><a href="index.html#sobre-mi" class="enlace-menu">Sobre mi</a></li>
+                <li><a href="contacto.html" class="enlace-menu">Contacto</a></li>
             </ul>
         </nav>
-        <button class="boton_menu" id="boton_menu"></button>
+        <button class="boton-hamburguesa" id="toggleMenu"></button>
     </div>
 </header>
 
 <section class="bloque">
     <div class="contenedor">
-        <div class="contacto_intro">
+<div class="parte-superior-contacto">
             <h1>Manda un mensaje.</h1>
-            <p class="contacto_bajada">Si tenes un proyecto o una idea, escribime. No hace falta tener todo claro para hablar.</p>
-            <p class="contacto_dato">santiago@correo.com</p>
+            <p class="descripcion-contacto">Si tenes un proyecto o una idea, escribime. No hace falta tener todo claro para hablar.</p>
+            <p class="correo-contacto">santiago@correo.com</p>
         </div>
 
         <form id="formulario" class="formulario">
-            <div class="campo">
-                <label for="nombre" class="campo_label">Tu nombre</label>
-                <input type="text" id="nombre" name="nombre" class="campo_input" placeholder="Matias Faya" required>
+            <div class="fila-campo">
+                <label for="nombre" class="etiqueta-campo">Tu nombre</label>
+                <input type="text" id="nombre" name="nombre" class="campo-texto" placeholder="Matias Faya" required>
             </div>
-            <div class="campo">
-                <label for="email" class="campo_label">Tu email</label>
-                <input type="email" id="email" name="email" class="campo_input" required>
+            <div class="fila-campo">
+                <label for="email" class="etiqueta-campo">Tu email</label>
+                <input type="email" id="email" name="email" class="campo-texto" required>
             </div>
-            <div class="campo">
-                <label for="mensaje" class="campo_label">Contame</label>
-                <input type="text" id="mensaje" name="mensaje" class="campo_input" placeholder="Hola, necesito..." required>
+            <div class="fila-campo">
+                <label for="mensaje" class="etiqueta-campo">Contame</label>
+                <input type="text" id="mensaje" name="mensaje" class="campo-texto" placeholder="Hola, necesito..." required>
             </div>
-            <button type="submit" class="boton_principal">Mandar</button>
+            <button type="submit" class="boton-lleno">Mandar</button>
         </form>
     </div>
 </section>
 
 <footer class="pie">
-    <div class="pie_inner">
+    <div class="fila-pie">
         <p class="marca">Santiago Ritter</p>
-        <p class="pie_copy">&copy; 2026 Santiago Ritter</p>
+        <p class="texto-pie">&copy; 2026 Santiago Ritter</p>
     </div>
 </footer>
 
