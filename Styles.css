@@ -405,3 +405,72 @@ h3 {
         text-align: center;
     }
 }
+
+.tarjeta-educacion {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+    border: 1px solid dimgray;
+    padding: 28px;
+    border-radius: 10px;
+    max-width: 640px;
+}
+
+.tarjeta-educacion:hover {
+    border-color: blueviolet;
+}
+
+.logo-ipm-link {
+    display: block;
+    flex-shrink: 0;
+}
+
+.logo-ipm {
+    width: 90px;
+    border-radius: 8px;
+    display: block;
+}
+
+.texto-educacion {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.badge-año {
+    display: inline-block;
+    background: blueviolet;
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 20px;
+    width: fit-content;
+    letter-spacing: 0.5px;
+}
+
+.titulo-educacion {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.enlace-ipm {
+    color: blueviolet;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    margin-top: 4px;
+}
+
+.enlace-ipm:hover {
+    color: mediumpurple;
+}
+
+@media (max-width: 600px) {
+    .tarjeta-educacion {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
