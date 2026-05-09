@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagina-centrada {
+    font-family: system-ui, sans-serif;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.tarjeta-usuario {
+    width: 300px;
+    background: #111;
+    border: 1px solid dimgray;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.banner-tarjeta {
+    height: 100px;
+    background: blueviolet;
+}
+
+.cuerpo-tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 24px;
+}
+
+.foto-circular {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-top: -40px;
+    background: dimgray;
+    display: block;
+}
+
+.nombre-usuario {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ciudad-usuario {
+    color: silver;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.estadisticas-usuario {
+    display: flex;
+    gap: 24px;
+    margin-top: 20px;
+    border-top: 1px solid dimgray;
+    padding-top: 16px;
+    width: 100%;
+    justify-content: center;
+}
+
+.dato-usuario {
+    text-align: center;
+}
+
+.numero-dato {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.etiqueta-dato {
+    font-size: 12px;
+    color: silver;
+}

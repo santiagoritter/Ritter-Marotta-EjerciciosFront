@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagina-centrada {
+    font-family: system-ui, sans-serif;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caja-centrada {
+    background: #111;
+    border: 1px solid dimgray;
+    padding: 40px 60px;
+    font-size: 16px;
+}

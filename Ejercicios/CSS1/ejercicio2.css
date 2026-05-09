@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background: black;
+    color: white;
+    padding: 40px;
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.enlace-limpio {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.enlace-limpio:hover {
+    color: white;
+}
+
+a {
+    color: silver;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
